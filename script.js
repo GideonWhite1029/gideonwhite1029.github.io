@@ -24,6 +24,8 @@ if (progress) {
     progressBarFill.style.width = progress;
 }
 
+// aHR0cHM6Ly9kaXNjb3JkLmdnL2JyaldYTU1icGQNCg==
+
 // Обновляем значение прогресса и сохраняем его в Local Storage при каждом изменении
 function updateProgress(value) {
     progressBarFill.style.width = `${value}%`;
